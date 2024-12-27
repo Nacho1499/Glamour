@@ -1,0 +1,65 @@
+import React from "react";
+import blog1 from "../assets/blog1.jpg";
+import blog4 from "../assets/blog3.jpg";
+import blog3 from "../assets/style.jpg";
+
+const Blog = () => {
+  
+  return (
+    <>
+      <div className="container-fluid p-3 bg-dark p-3 text-light">
+        <div className="container mt-5 text-light">
+          <h4>Our Recent Blog Posts</h4>
+          <hr />
+
+          <div className="row g-3 mt-4">
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <a
+                className="text-decoration-none text-dark"
+                href="https://www.byrdie.com/best-hair-products-2024-8646704"
+              >
+                <img className="img-fluid rounded" src={blog1} alt="" />
+                <h6 className="mt-3 text-light">These Are the Best Hair Products of 2024</h6>
+              </a>
+            </div>
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <a
+                className="text-decoration-none text-dark"
+                href="https://www.naturalhair-products.com/best-hair-products-for-black-men.html"
+              >
+                <img className="img-fluid rounded" src={blog4} alt="" />
+                <h6 className="mt-3 text-light">
+                Best Hair Products For Black men
+                </h6>
+              </a>
+            </div>
+            <div
+              className="col-12 col-lg-4"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <a
+                className="text-decoration-none text-dark"
+                href="https://www.menshairstylestoday.com/hairstyles-for-black-men/"
+              >
+                <img className="img-fluid rounded" src={blog3} alt="" />
+                <h6 className="mt-3 text-light">50 Fresh Haircuts For Black Men</h6>
+              </a>
+            </div>
+           
+          </div>
+        </div>
+        
+      </div>
+    </>
+  );
+};
+export default Blog;
