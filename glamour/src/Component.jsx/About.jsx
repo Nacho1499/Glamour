@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import style from "../assets/17.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
   return (
     <div className="bg-dark p-4 text-light">
       <div className="container mt-4">
@@ -11,14 +16,14 @@ const About = () => {
         </h4>
         <hr className="mb-5" />
         <div className="row g-4">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6" data-aos="zoom-in">
             <img
               className="img-fluid rounded about-image"
               src={style}
               alt="about-image"
             />
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6" data-aos="zoom-in">
             <p>
               Glamour Luxury Unisex Salon redefines the beauty experience with a
               perfect blend of opulence, creativity, and personalized service.

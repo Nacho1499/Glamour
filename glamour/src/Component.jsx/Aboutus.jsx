@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -7,6 +9,9 @@ import staff from "../assets/staff2.jpg";
 import Scroll from "./Scroll";
 
 const Aboutus = () => {
+   useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
   return (
     <>
       <Navbar />
@@ -25,8 +30,11 @@ const Aboutus = () => {
             Welcome To Glamour Luxury Unisex Salon
           </h4>
           <hr />
-          <div className=" mt-4">
-            <img className="img-fluid about-us" src={emma} alt="" />
+          <div className="row g-3 mt-4">
+            <div className="col-12 col-lg-6"  data-aos="zoom-in">
+            <img className="img-fluid about-us rounded" src={emma} alt="" />
+            </div>
+            <div className="col-12 col-lg-6"  data-aos="zoom-in">
             <p className="mt-3">
               Glamour Luxury Unisex Salon redefines the beauty experience with a
               perfect blend of opulence, creativity, and personalized service.
@@ -39,21 +47,22 @@ const Aboutus = () => {
               professionals use top-of-the-line products and cutting-edge
               techniques to ensure exceptional results.
             </p>
+            </div>
           </div>
 
           <div className="mt-5">
             <h4>MEET OUR STAFF</h4>
             <hr />
             <div className="row g-3 mt-3 text-center">
-              <div className="col-12 col-lg-4  ">
+              <div className="col-12 col-lg-4  "  data-aos="zoom-in">
                 <img className=" staff img-fluid" src={staff} alt="" />
                 <h6>Manager : mercy john</h6>
               </div>
-              <div className="col-12 col-lg-4">
+              <div className="col-12 col-lg-4"  data-aos="zoom-in">
                 <img className="staff img-fluid " src={staff} alt="" />
                 <h6>Barber : emmanuel iheanacho</h6>
               </div>
-              <div className="col-12 col-lg-4">
+              <div className="col-12 col-lg-4"  data-aos="zoom-in">
                 <img className="staff img-fluid " src={staff} alt="" />
                 <h6> Stylist : Gift peter</h6>
               </div>

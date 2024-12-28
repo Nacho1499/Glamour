@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import product from "../assets/product.jpg";
 import { Link } from "react-router-dom";
 
 const Products = () => {
+   useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
   return (
     <>
       <div className="p-3 bg-dark container-fluid text-light">
@@ -12,14 +17,14 @@ const Products = () => {
           </h3>
           <hr className="mb-3" />
           <div className="row g-3 mb-5">
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6" data-aos="zoom-in" >
               <img
                 className="img-fluid rounded"
                 src={product}
                 alt="product-image"
               />
             </div>
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6" data-aos="zoom-in">
               <p>
                 At Glamour Luxury Unisex Salon, we believe that beautiful hair
                 begins with the best products. That’s why we offer a curated
@@ -36,7 +41,7 @@ const Products = () => {
         </div>
       </div>
       <div className="gal-book container-fluid bg-dark">
-        <div className="container text-center mt-4">
+        <div className="container text-center mt-4" data-aos="zoom-in">
           <h3 className="text-light">WE ARE HERE FOR YOU </h3>
           <hr className="text-light" />
           <Link

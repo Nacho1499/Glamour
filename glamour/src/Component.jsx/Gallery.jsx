@@ -81,7 +81,7 @@ const Gallery = () => {
         <div className="text-center">
         <h3 className="text-light">WE ARE HERE FOR YOU </h3>
         <hr className="text-light" />
-        <button className="btn btn-outline-light p-2">BOOK AN APPOINTMENT</button>
+        <Link to="/appointment" className="btn btn-outline-light p-2 text-decoration-none">BOOK AN APPOINTMENT</Link>
         </div>
       </div>
       <Footer/>

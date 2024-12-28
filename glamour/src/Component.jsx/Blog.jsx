@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import blog1 from "../assets/blog1.jpg";
 import blog4 from "../assets/blog3.jpg";
 import blog3 from "../assets/style.jpg";
 
 const Blog = () => {
-  
+   useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
   return (
     <>
       <div className="container-fluid p-3 bg-dark p-3 text-light">
@@ -16,7 +20,7 @@ const Blog = () => {
             <div
               className="col-12 col-lg-4"
               data-aos="zoom-in"
-              data-aos-duration="1000"
+              
             >
               <a
                 className="text-decoration-none text-dark"
@@ -29,7 +33,7 @@ const Blog = () => {
             <div
               className="col-12 col-lg-4"
               data-aos="zoom-in"
-              data-aos-duration="1000"
+              
             >
               <a
                 className="text-decoration-none text-dark"
@@ -44,7 +48,7 @@ const Blog = () => {
             <div
               className="col-12 col-lg-4"
               data-aos="zoom-in"
-              data-aos-duration="1000"
+              
             >
               <a
                 className="text-decoration-none text-dark"

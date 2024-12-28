@@ -2,42 +2,33 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <>
-    <div className="container-fluid p-3 bg-dark text-light">
-
-    
-      <div
-        className="accordion container mt-5 mb-5"
-        id="accordionExample"
-      >
-        <h4 className="mb-5">Frequently Asked Questions</h4>
+    <div className="container-fluid bg-dark p-4">
+      <div className="accordion container mb-4 mt-4 " id="accordionExample">
+        <h4 className="mb-4 text-light mt-4">Frequently Asked Questions</h4>
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="collapseOne"
             >
-              What is G-NOB Vocational Global Concept Limited?
+              What makes your salon different from others?
             </button>
           </h2>
           <div
             id="collapseOne"
-            className="accordion-collapse collapse "
+            className="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>
-                G-NOB Vocational Global Concept Limited is a leading provider of
-                vocational training and development programs designed to equip
-                individuals and organizations with essential skills for success
-                in global markets. The company focuses on offering innovative,
-                high-quality educational programs that address industry needs
-                while promoting inclusivity and sustainability.
-              </p>
+              Our salon combines luxury with convenience, offering top-notch
+              services in a relaxing, elegant environment. We use only premium,
+              high-quality products for all treatments. Our skilled and
+              experienced team is dedicated to providing a personalized,
+              professional experience for each client.
             </div>
           </div>
         </div>
@@ -51,7 +42,7 @@ const FAQ = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              What kind of vocational training does G-NOB offer?
+              Is your salon suitable for both men and women?
             </button>
           </h2>
           <div
@@ -60,44 +51,9 @@ const FAQ = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>
-                G-NOB offers a wide range of vocational training programs
-                tailored to various industries such as technology, business
-                management, healthcare, and engineering. Their courses are
-                designed to improve practical skills, enhance employability, and
-                prepare individuals for diverse global job markets.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              What makes G-NOB’s training programs unique?
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body">
-              <p>
-                G-NOB stands out for its global approach to vocational training.
-                They integrate technology, sustainability, and international
-                best practices into their programs. The company also places a
-                strong emphasis on local relevance, ensuring that trainees are
-                equipped with the skills needed for specific regional markets
-                while maintaining a global perspective.
-              </p>
+              Yes! We are a unisex salon, offering services tailored to both men
+              and women. Whether you're looking for a haircut, skin treatment,
+              or a complete makeover, we provide services for all genders.
             </div>
           </div>
         </div>
@@ -111,7 +67,7 @@ const FAQ = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Can G-NOB provide customized training for organizations?
+              Is your salon suitable for both men and women?
             </button>
           </h2>
           <div
@@ -120,18 +76,39 @@ const FAQ = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>
-                Absolutely. G-NOB offers customized vocational training
-                solutions tailored to the specific needs of organizations.
-                Whether it's a large corporation or a small business, G-NOB
-                works closely with clients to develop training programs that
-                address specific skills gaps and enhance overall workforce
-                capabilities.
-              </p>
+              Yes! We are a unisex salon, offering services tailored to both men
+              and women. Whether you're looking for a haircut, skin treatment,
+              or a complete makeover, we provide services for all genders.
             </div>
           </div>
         </div>
-
+        <div className="accordion-item">
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              What makes your salon different from others?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body">
+              Our salon combines luxury with convenience, offering top-notch
+              services in a relaxing, elegant environment. We use only premium,
+              high-quality products for all treatments. Our skilled and
+              experienced team is dedicated to providing a personalized,
+              professional experience for each client
+            </div>
+          </div>
+        </div>
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
@@ -142,7 +119,7 @@ const FAQ = () => {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Who can benefit from G-NOB’s vocational programs?
+              What are your operating hours?
             </button>
           </h2>
           <div
@@ -151,20 +128,15 @@ const FAQ = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>
-                G-NOB’s vocational programs are beneficial for individuals
-                seeking to enhance their skills, companies aiming to upskill
-                their workforce, and organizations looking for customized
-                training solutions. The programs cater to professionals, recent
-                graduates, and individuals aiming to transition into new career
-                paths.
-              </p>
+              Our salon is open from [insert working hours here], including
+              weekends. Please check our website for any holiday closures or
+              special operating hours.
             </div>
           </div>
         </div>
       </div>
-      </div>
-    </>
+    </div>
   );
 };
+
 export default FAQ;

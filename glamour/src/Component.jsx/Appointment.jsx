@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Scroll from "./Scroll";
 
 const Appointment = () => {
+   useEffect(() => {
+      AOS.init({ duration: 2000 });
+    }, []);
   return (
     <>
       <Navbar />
       <Scroll/>
       <div className="appointment container-fluid text-light text-center">
-        <div>
+        <div  data-aos="zoom-in">
           <h3 className="text-center">APPOINTMENT</h3>
            <Link to="/" className="text-decoration-none text-light" >_____Home : Appointment  ____</Link>
         </div>
@@ -77,27 +82,27 @@ const Appointment = () => {
           <hr className="text-light" />
           <h6>Call Us : +234-8107088346</h6>
           <div className="row g-3 mt-4 ">
-            <div className=" date col-4 col-lg-2">
+            <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>MON</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <div className=" date col-4 col-lg-2">
+            <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>TUES</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <div className=" date col-4 col-lg-2">
+            <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>WED</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <div className=" date col-4 col-lg-2">
+            <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>THUR</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <div className=" date col-4 col-lg-2">
+            <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>FRI</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <div className=" date col-4 col-lg-2">
+            <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>SAT</h5>
               <p>8.00AM - 9.00PM </p>
             </div>

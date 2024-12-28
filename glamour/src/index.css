@@ -18,7 +18,7 @@
   align-items: center;
 }
 .hero-btn {
-  margin: 10px;
+  margin:3px;
 }
 .service1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
@@ -127,7 +127,9 @@
   padding: 30px;
 }
 .about-us {
-  width: 130px;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
 }
 .staff {
   width: 330px;
