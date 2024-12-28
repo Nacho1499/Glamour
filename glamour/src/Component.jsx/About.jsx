@@ -9,7 +9,7 @@ const About = () => {
       AOS.init({ duration: 2000 });
     }, []);
   return (
-    <div className="bg-dark p-4 text-light">
+    <div className="bg-dark p-3 text-light">
       <div className="container mt-4">
         <h4 className="">
           SERVICE BEYOND <br /> EXPECTATION

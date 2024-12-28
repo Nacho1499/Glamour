@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="container-fluid bg-dark p-4">
+    <div className="container-fluid bg-dark p-3">
       <div className="accordion container mb-4 mt-4 " id="accordionExample">
         <h4 className="mb-4 text-light mt-4">Frequently Asked Questions</h4>
         <div className="accordion-item">
