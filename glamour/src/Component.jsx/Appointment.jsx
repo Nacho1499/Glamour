@@ -109,7 +109,21 @@ const Appointment = () => {
             <h5 className="text-center mt-4">SUNDAY : CLOSED</h5>
           </div>
         </div>
+        
       </div>
+      <section class="map text-center  bg-dark">
+          <iframe
+            className="w-100 shadow mt-4"
+            src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.8572360108408!2d7.230085967149778!3d8.8777467205911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e65b378f5cce9%3A0xff5f9f28ee0e3a8c!2sSauka%20extension%2C%20Kuje!5e0!3m2!1sen!2sng!4v1735404049461!5m2!1sen!2sng"
+            height="350"
+            style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+
+      
 
       <Footer />
     </>

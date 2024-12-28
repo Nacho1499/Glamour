@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import emma from "../assets/emma.jpg";
+import emma from "../assets/13.jpg";
 import staff from "../assets/staff2.jpg";
 import Scroll from "./Scroll";
 
@@ -72,7 +72,7 @@ const Aboutus = () => {
         <section class="map text-center mb-5">
           <iframe
             className="w-100 shadow mt-4"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.302984141201!2d7.486438989845312!3d9.127082590938237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104de1e42cfd50bb%3A0x7a062fb69f931c1e!2sMpape%20police%20station!5e0!3m2!1sen!2sng!4v1723849240800!5m2!1sen!2sng"
+            src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.8572360108408!2d7.230085967149778!3d8.8777467205911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e65b378f5cce9%3A0xff5f9f28ee0e3a8c!2sSauka%20extension%2C%20Kuje!5e0!3m2!1sen!2sng!4v1735404049461!5m2!1sen!2sng"
             height="350"
             style={{ border: "0" }}
             allowfullscreen=""
@@ -80,6 +80,7 @@ const Aboutus = () => {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </section>
+
       </div>
       <Footer />
     </>
