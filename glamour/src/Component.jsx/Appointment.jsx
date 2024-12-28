@@ -12,7 +12,7 @@ const Appointment = () => {
       <div className="appointment container-fluid text-light text-center">
         <div>
           <h3 className="text-center">APPOINTMENT</h3>
-           <Link to="/" className="text-decoration-none text-light" >_____Home : Appointment____</Link>
+           <Link to="/" className="text-decoration-none text-light" >_____Home : Appointment  ____</Link>
         </div>
       </div>
       <div className="container-fluiid p-3 bg-dark">

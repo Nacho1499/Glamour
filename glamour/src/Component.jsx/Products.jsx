@@ -21,10 +21,12 @@ const Products = () => {
             </div>
             <div className="col-12 col-lg-6">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium totam tempore illo fugiat pariatur laudantium! Quae
-                at numquam vitae rem optio quod eum quaerat sit eaque alias,
-                veniam natus cum.
+                At Glamour Luxury Unisex Salon, we believe that beautiful hair
+                begins with the best products. That’s why we offer a curated
+                selection of premium hair care brands, designed to nourish,
+                protect, and enhance every strand. From luxurious shampoos and
+                conditioners to styling products that define and hold, our salon
+                uses only the finest, salon-grade formulations.
               </p>
               <button className="btn btn-outline-light p-2 mt-2">
                 Make More Enquiry <i class="fa-solid fa-arrow-right"></i>
@@ -35,9 +37,14 @@ const Products = () => {
       </div>
       <div className="gal-book container-fluid bg-dark">
         <div className="container text-center mt-4">
-        <h3 className="text-light">WE ARE HERE FOR YOU </h3>
-        <hr className="text-light" />
-        <Link to="/appointment" className="btn btn-outline-light p-2 text-decoration-none">BOOK AN APPOINTMENT</Link>
+          <h3 className="text-light">WE ARE HERE FOR YOU </h3>
+          <hr className="text-light" />
+          <Link
+            to="/appointment"
+            className="btn btn-outline-light p-2 text-decoration-none"
+          >
+            BOOK AN APPOINTMENT
+          </Link>
         </div>
       </div>
     </>

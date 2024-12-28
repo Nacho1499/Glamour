@@ -1,136 +1,148 @@
-*{
-    margin: 0;
-    padding: 0;
-     box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    opacity: 0.9;
-    
+.navbar {
+  opacity: 0.9;
 }
-.hero{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.50)),url(assets/hero2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5)),
+    url(assets/14.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.hero-btn{
-    margin: 10px;
-    
+.hero-btn {
+  margin: 10px;
 }
-.service1{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/hero2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    width: 350px;
-    border-radius: 10px;
+.service1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/hero2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  width: 350px;
+  border-radius: 10px;
 }
-.service2{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/barb.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    width: 350px;
-    border-radius: 10px;
+.service2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/barb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  width: 350px;
+  border-radius: 10px;
 }
-.service3{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/pedi.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    width: 350px;
-    border-radius: 10px;
+.service3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/pedi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  width: 350px;
+  border-radius: 10px;
 }
-.service4{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/massage.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    width: 350px;
-    border-radius: 10px;
+.service4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/massage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  width: 350px;
+  border-radius: 10px;
 }
-.gallery{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/11.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    height: 45vh;
+.gallery {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: 45vh;
 }
-.gal-img{
-    width: 400px;
-    height: 250px;
-    object-fit: cover;
+.gal-img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
 }
-.gal-book{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/logo4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    height: 45vh;
+.gal-book {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: 45vh;
 }
-.aboutus{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/logo4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    height: 45vh;
+.aboutus {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/18.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: 45vh;
 }
-.appointment{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/logo4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    height: 45vh;
+.appointment {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/hero2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: 45vh;
 }
-.time{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0.40)),url(assets/logo4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    height: fit-content;
-    padding: 30px;
+.time {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
+    url(assets/15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: fit-content;
+  padding: 30px;
 }
-.about-us{
-    width: 130px;
+.about-us {
+  width: 130px;
 }
-.staff{
-    width: 330px;
-    height: 250px;
-    object-fit: contain;
+.staff {
+  width: 330px;
+  height: 250px;
+  object-fit: contain;
 }
-.footer{
-    margin: 5px;
-  }
-  .date{
-    border: 1px solid white;
-    padding: 10px;
-    
-  }
+.footer {
+  margin: 5px;
+}
+.date {
+  border: 1px solid white;
+  padding: 10px;
+}
+.about-image {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+}
