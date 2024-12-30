@@ -17,7 +17,7 @@ const Aboutus = () => {
       <Navbar />
       <Scroll />
       <div className="aboutus container-fluid text-light">
-        <div>
+        <div data-aos="zoom-in">
           <h1 className="text-center">ABOUT</h1>
           <Link to="/" className="text-decoration-none text-light">
             _____Home : About____

@@ -5,9 +5,16 @@
 }
 .navbar {
   opacity: 0.9;
+  box-shadow: 2px 2px 10px white;
+}
+.logo{
+  width: 30px;
+  border-radius: 100%;
+  height: 30px;
+  box-shadow: 2px 2px 10px white;
 }
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0,0,0.65), rgba(0, 0, 0,0.65)),
     url(assets/14.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +98,7 @@
 }
 .aboutus {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/18.jpg);
+    url(assets/21.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +110,7 @@
 }
 .appointment {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/hero2.jpg);
+    url(assets/20.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

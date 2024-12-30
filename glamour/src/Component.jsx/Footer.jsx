@@ -13,10 +13,10 @@ const Footer = () => {
             GLAMOUR LUXURY UNISEX SALON
             </h4>
 
-           <p> Address/Location: Block 13,Shop 22 Kuje Market, <br /> Kuje FCT
+           <p> Address/Location: Suaka Road Pajimo Street, <br /> Kuje FCT
             Abuja.
             </p>
-            Tel: +234-7035822212
+            Tel: +234-7056863572, +234-7049466103
           </div>
 
           <div className="col-12 col-lg-6 ">

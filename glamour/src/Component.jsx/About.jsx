@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import style from "../assets/17.jpg";
+import style from "../assets/19.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {

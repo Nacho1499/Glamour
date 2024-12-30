@@ -1,16 +1,12 @@
-
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { ToastContainer, toast } from "react-toastify";
 
 const Hero = () => {
-  const notify = () => toast("Coming Soon!!");
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
 
-  
   return (
     <div className="hero container-fluid">
       <div className="container " data-aos="zoom-in">
@@ -22,7 +18,6 @@ const Hero = () => {
         <button className="hero-btn btn btn-outline-light" onClick={notify}>
           HAIR PRODUCTS
         </button>
-        <ToastContainer />
       </div>
     </div>
   );

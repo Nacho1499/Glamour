@@ -70,7 +70,7 @@ const Appointment = () => {
               ></textarea>
             </div>
 
-            <button type="submit" className="btn btn-warning">
+            <button type="submit" className="btn btn-outline-light">
               Make An Appointment
             </button>
           </form>
@@ -106,7 +106,7 @@ const Appointment = () => {
               <h5>SAT</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <h5 className="text-center mt-4">SUNDAY : CLOSED</h5>
+            <h5 className="text-center mt-4">SUNDAY : HALF DAY</h5>
           </div>
         </div>
         
