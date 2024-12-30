@@ -80,7 +80,7 @@ const Appointment = () => {
         <div className="container text-center mt-4 text-light">
           <h3 className="text-center">Working Hours</h3>
           <hr className="text-light" />
-          <h6>Call Us : +234-8107088346</h6>
+          <h6>Call Us : +234-7056863572</h6>
           <div className="row g-3 mt-4 ">
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
               <h5>MON</h5>

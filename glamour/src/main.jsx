@@ -6,6 +6,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Gallery from "./Component.jsx/Gallery.jsx";
 import Aboutus from './Component.jsx/Aboutus.jsx';
 import Appointment from './Component.jsx/Appointment.jsx';
+import Allservices from "./Component.jsx/Allservices.jsx";
 
 
 
@@ -14,6 +15,7 @@ const router=createBrowserRouter([
   {path:"/gallery", element:<Gallery/>},
   {path:"/about", element:<Aboutus/>},
   {path:"/appointment", element:<Appointment/>},
+  {path:"/allservices", element:<Allservices/>},
 
 ]);
 

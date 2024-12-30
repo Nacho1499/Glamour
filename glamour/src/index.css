@@ -27,46 +27,18 @@
 .hero-btn {
   margin:3px;
 }
-.service1 {
+.service{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/hero2.jpg);
+  url(assets/hero2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
-  width: 350px;
-  border-radius: 10px;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.service2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/barb.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-  width: 350px;
-  border-radius: 10px;
-}
-.service3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/pedi.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-  width: 350px;
-  border-radius: 10px;
-}
-.service4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/massage.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-  width: 350px;
-  border-radius: 10px;
-}
+
 .gallery {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
     url(assets/11.jpg);

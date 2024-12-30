@@ -18,7 +18,7 @@ const Aboutus = () => {
       <Scroll />
       <div className="aboutus container-fluid text-light">
         <div data-aos="zoom-in">
-          <h1 className="text-center">ABOUT</h1>
+          <h1 className="text-center">ABOUT US</h1>
           <Link to="/" className="text-decoration-none text-light">
             _____Home : About____
           </Link>

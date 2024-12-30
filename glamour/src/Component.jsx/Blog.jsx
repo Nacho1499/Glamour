@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import blog1 from "../assets/blog1.jpg";
-import blog4 from "../assets/blog3.jpg";
+import blog1 from "../assets/product.jpg";
+import blog4 from "../assets/products.jpg";
 import blog3 from "../assets/style.jpg";
 
 const Blog = () => {
@@ -27,7 +27,7 @@ const Blog = () => {
                 href="https://www.byrdie.com/best-hair-products-2024-8646704"
               >
                 <img className="img-fluid rounded" src={blog1} alt="" />
-                <h6 className="mt-3 text-light">These Are the Best Hair Products of 2024</h6>
+                <h5 className="mt-3 text-light">These Are the Best Hair Products of 2024</h5>
               </a>
             </div>
             <div
@@ -40,9 +40,9 @@ const Blog = () => {
                 href="https://www.naturalhair-products.com/best-hair-products-for-black-men.html"
               >
                 <img className="img-fluid rounded" src={blog4} alt="" />
-                <h6 className="mt-3 text-light">
+                <h5 className="mt-3 text-light">
                 Best Hair Products For Black men
-                </h6>
+                </h5>
               </a>
             </div>
             <div
@@ -55,7 +55,7 @@ const Blog = () => {
                 href="https://www.menshairstylestoday.com/hairstyles-for-black-men/"
               >
                 <img className="img-fluid rounded" src={blog3} alt="" />
-                <h6 className="mt-3 text-light">50 Fresh Haircuts For Black Men</h6>
+                <h5 className="mt-3 text-light">50 Fresh Haircuts For Black Men</h5>
               </a>
             </div>
            
