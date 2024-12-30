@@ -15,7 +15,7 @@ const Hero = () => {
           Where Timeless Elegance Meets Personalized Beauty....
         </p>
         <button className="hero-btn btn btn-light">CONTACT US</button>
-        <button className="hero-btn btn btn-outline-light" onClick={notify}>
+        <button className="hero-btn btn btn-outline-light">
           HAIR PRODUCTS
         </button>
       </div>
