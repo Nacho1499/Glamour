@@ -21,7 +21,7 @@ const Service = () => {
             <img className="img-fluid rounded" src={barb1} alt="" />
             <p className="mt-3">
               <h5>Hair Cut</h5>
-              <hr />A visit to a Glamour Luxury Salon promises not just a
+              <hr />A visit to  Glamour Luxury Salon promises not just a
               haircut, but an indulgent, high-end experience that leaves you
               feeling pampered and looking your best
             </p>
@@ -31,7 +31,7 @@ const Service = () => {
             <p className="mt-3">
               <h5>Hair Braiding</h5>
               <hr />
-              At a Glamour Luxury Salon, hair braiding is elevated to an art
+              At  Glamour Luxury Salon, hair braiding is elevated to an art
               form, providing clients with elegant, stylish, and unique braided
               looks.
             </p>
@@ -40,7 +40,7 @@ const Service = () => {
             <img className="img-fluid rounded" src={barb3} alt="" />
             <p className="mt-3">
               <h5>Facials</h5>
-              <hr />A facial at a glamour luxury salon is a luxurious treat for
+              <hr />A facial at glamour luxury salon is a luxurious treat for
               your skin, combining high-end products, expert techniques, and a
               relaxing atmosphere to leave you feeling refreshed and glowing.
             </p>

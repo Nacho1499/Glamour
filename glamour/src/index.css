@@ -67,7 +67,7 @@
 }
 .gal-book {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/15.jpg);
+    url(assets/show.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,7 +122,7 @@
 .staff {
   width: 330px;
   height: 250px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .footer {
   margin: 5px;

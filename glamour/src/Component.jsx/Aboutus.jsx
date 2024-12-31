@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import emma from "../assets/13.jpg";
-import staff from "../assets/staff2.jpg";
+import staff1 from "../assets/staff.jpg";
+import staff2 from "../assets/staff1.jpg";
+import staff3 from "../assets/staff3.jpg";
 import Scroll from "./Scroll";
 
 const Aboutus = () => {
@@ -55,16 +57,22 @@ const Aboutus = () => {
             <hr />
             <div className="row g-3 mt-3 text-center">
               <div className="col-12 col-lg-4  "  data-aos="zoom-in">
-                <img className=" staff img-fluid" src={staff} alt="" />
-                <h6>Manager : mercy john</h6>
+                <a href={staff1} className='text-light'>
+                <img className=" staff img-fluid rounded" src={staff1} alt="" />
+                <h5 className='mt-4 style'>Stylist</h5>
+                </a>
               </div>
               <div className="col-12 col-lg-4"  data-aos="zoom-in">
-                <img className="staff img-fluid " src={staff} alt="" />
-                <h6>Barber : emmanuel iheanacho</h6>
+                <a href={staff2} className='text-light'>
+                <img className="staff img-fluid rounded " src={staff2} alt="" />
+                <h5 className='mt-4 style'>Barber</h5>
+                </a>
               </div>
               <div className="col-12 col-lg-4"  data-aos="zoom-in">
-                <img className="staff img-fluid " src={staff} alt="" />
-                <h6> Stylist : Gift peter</h6>
+                <a href={staff3} className='text-light'>
+                <img className="staff img-fluid rounded " src={staff3} alt="" />
+                <h5 className='mt-4 style'> Barber</h5>
+                </a>
               </div>
             </div>
           </div>

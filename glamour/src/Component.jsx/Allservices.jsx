@@ -34,41 +34,41 @@ const Allservices = () => {
               <p className="mt-3">
                 <h5>Medicure And Pedicure</h5>
                 <hr />
-                visit to a Glamour Luxury Salon for a manicure and pedicure is
-                the perfect way to treat your hands and feet to a luxurious
+                visit Glamour Luxury Salon for a manicure and pedicure is the
+                perfect way to treat your hands and feet to a luxurious
                 experience.
               </p>
             </div>
             <div className="col-12 col-lg-4" data-aos="zoom-in">
               <img className="img-fluid rounded" src={barb2} alt="" />
               <p className="mt-3">
-              <h5>Women Hair</h5>
-              <hr />
-                A visit to a Glamour Luxury Salon is the ultimate way to treat
-                your hair to high-end care and styling. These salons specialize
-                in providing women with top-quality hair services that leave you
-                looking and feeling amazing.
+                <h5>Women Hair</h5>
+                <hr />
+                Glamour Luxury Salon is the ultimate way to treat your hair to
+                high-end care and styling. These salons specialize in providing
+                women with top-quality hair services that leave you looking and
+                feeling amazing.
               </p>
             </div>
             <div className="col-12 col-lg-4" data-aos="zoom-in">
               <img className="img-fluid rounded" src={barb3} alt="" />
               <p className="mt-3">
-              <h5>EyeLash Fixing</h5>
-              <hr />
-                At a Glamour Luxury Salon, eyelash services are designed to
-                enhance your natural beauty and give your eyes a captivating,
-                dramatic look. Whether you're looking for longer, fuller lashes
-                or a more.
+                <h5>EyeLash Fixing</h5>
+                <hr />
+                Glamour Luxury Salon, eyelash services are designed to enhance
+                your natural beauty and give your eyes a captivating, dramatic
+                look. Whether you're looking for longer, fuller lashes or a
+                more.
               </p>
             </div>
             <div className="col-12 col-lg-4" data-aos="zoom-in">
               <img className="img-fluid rounded" src={barb4} alt="" />
               <p className="mt-3">
-              <h5>Body Massage</h5>
-              <hr />
-              A visit to a Glamour Luxury Salon is more than just about beauty
-              treatments; it's a chance to relax and unwind with luxurious
-              services like massage.
+                <h5>Body Massage</h5>
+                <hr />
+                Glamour Luxury Salon is more than just about beauty treatments;
+                it's a chance to relax and unwind with luxurious services like
+                massage.
               </p>
             </div>
           </div>
