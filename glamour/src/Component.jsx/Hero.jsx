@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <a href="tel:07049466103" className="hero-btn btn btn-light"  >CONTACT US</a>
         <Link to="/appointment" className="hero-btn btn btn-outline-light">
-         BOOK APPOINTMENT
+          APPOINTMENT
         </Link>
         <br />
       </div>
