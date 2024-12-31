@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,10 +17,10 @@ const Hero = () => {
          <marquee behavior="" direction="left">Where Timeless Elegance Meets Personalized Beauty....</marquee>
         <p className="hero-text"> Where Timeless Elegance Meets Personalized Beauty....</p>
         </div>
-        <a href="tel:08107088346" className="hero-btn btn btn-light"  >CONTACT US</a>
-        <button className="hero-btn btn btn-outline-light">
-          HAIR PRODUCTS
-        </button>
+        <a href="tel:07049466103" className="hero-btn btn btn-light"  >CONTACT US</a>
+        <Link to="/appointment" className="hero-btn btn btn-outline-light">
+         BOOK APPOINTMENT
+        </Link>
         <br />
       </div>
     </div>
