@@ -13,7 +13,7 @@ const Blog = () => {
     <>
       <div className="container-fluid p-3 bg-dark p-3 text-light">
         <div className="container mt-5 text-light">
-          <h4>Our Recent Blog Posts</h4>
+          <h4 className='style'>Our Recent Blog Posts</h4>
           <hr />
 
           <div className="row g-3 mt-4">

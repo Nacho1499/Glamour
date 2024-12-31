@@ -20,7 +20,7 @@ const Allservices = () => {
       <Scroll />
       <div className="service container-fluid text-light">
         <div data-aos="zoom-in">
-          <h3 className="text-center">OUR SERVICES</h3>
+          <h3 className="text-center style">OUR SERVICES</h3>
           <Link to="/" className="text-decoration-none text-light">
             _____Home : Services____
           </Link>
@@ -64,7 +64,7 @@ const Allservices = () => {
             <div className="col-12 col-lg-4" data-aos="zoom-in">
               <img className="img-fluid rounded" src={barb4} alt="" />
               <p className="mt-3">
-              <h5>EyeLash Fixing</h5>
+              <h5>Body Massage</h5>
               <hr />
               A visit to a Glamour Luxury Salon is more than just about beauty
               treatments; it's a chance to relax and unwind with luxurious

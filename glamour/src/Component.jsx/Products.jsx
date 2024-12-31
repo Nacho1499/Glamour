@@ -12,7 +12,7 @@ const Products = () => {
     <>
       <div className="p-3 bg-dark container-fluid text-light">
         <div className="container mt-5">
-          <h3>
+          <h3 className='style'>
             GLAMOUR HAIR <br /> PRODUCTS
           </h3>
           <hr className="mb-3" />

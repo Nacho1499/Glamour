@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container mt-5">
         <div className="row  g-4">
           <div className="col-12 col-lg-6 text-light">
-          <h4 className="text-light">
+          <h4 className="text-light style">
             GLAMOUR LUXURY UNISEX SALON
             </h4>
 

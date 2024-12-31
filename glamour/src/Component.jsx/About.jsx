@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="bg-dark p-3 text-light">
       <div className="container mt-4">
-        <h4 className="">
+        <h4 className='style'>
           SERVICE BEYOND <br /> EXPECTATION
         </h4>
         <hr className="mb-5" />

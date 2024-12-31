@@ -18,7 +18,7 @@ const Aboutus = () => {
       <Scroll />
       <div className="aboutus container-fluid text-light">
         <div data-aos="zoom-in">
-          <h1 className="text-center">ABOUT US</h1>
+          <h1 className="text-center style">ABOUT US</h1>
           <Link to="/" className="text-decoration-none text-light">
             _____Home : About____
           </Link>
@@ -26,7 +26,7 @@ const Aboutus = () => {
       </div>
       <div className="container-fluid p-3 bg-dark text-light">
         <div className="container mt-4 mb-5">
-          <h4 className="text-center">
+          <h4 className="text-center style">
             Welcome To Glamour Luxury Unisex Salon
           </h4>
           <hr />
@@ -51,7 +51,7 @@ const Aboutus = () => {
           </div>
 
           <div className="mt-5">
-            <h4>MEET OUR STAFF</h4>
+            <h4 className='style'>MEET OUR STAFF</h4>
             <hr />
             <div className="row g-3 mt-3 text-center">
               <div className="col-12 col-lg-4  "  data-aos="zoom-in">

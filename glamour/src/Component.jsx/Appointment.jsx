@@ -16,13 +16,13 @@ const Appointment = () => {
       <Scroll/>
       <div className="appointment container-fluid text-light text-center">
         <div  data-aos="zoom-in">
-          <h3 className="text-center">APPOINTMENT</h3>
+          <h3 className="text-center style">APPOINTMENT</h3>
            <Link to="/" className="text-decoration-none text-light" >_____Home : Appointment  ____</Link>
         </div>
       </div>
       <div className="container-fluiid p-3 bg-dark">
         <div className="container mt-5 mb-5 text-light">
-          <h3>Make An Appointment</h3>
+          <h3 className='style'>Make An Appointment</h3>
           <hr />
           <form
             action=""
@@ -78,7 +78,7 @@ const Appointment = () => {
       </div>
       <div className="time container-fluid bg-dark">
         <div className="container text-center mt-4 text-light">
-          <h3 className="text-center">Working Hours</h3>
+          <h3 className="text-center style">Working Hours</h3>
           <hr className="text-light" />
           <h6>Call Us : +234-7056863572</h6>
           <div className="row g-3 mt-4 ">
@@ -106,7 +106,7 @@ const Appointment = () => {
               <h5>SAT</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <h5 className="text-center mt-4">SUNDAY : HALF DAY</h5>
+            <h5 className="text-center mt-4">SUNDAY : 12.00pm - 8.00pm</h5>
           </div>
         </div>
         

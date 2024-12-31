@@ -14,7 +14,7 @@ const Service = () => {
   return (
     <div className="p-3 bg-dark text-light">
       <div className="container mt-4">
-        <h4>OUR EXCLUSIVE SERVICES</h4>
+        <h4 className='style'>OUR EXCLUSIVE SERVICES</h4>
         <hr className="mb-5" />
         <div className="row">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
@@ -39,7 +39,7 @@ const Service = () => {
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <img className="img-fluid rounded" src={barb3} alt="" />
             <p className="mt-3">
-              <h5>Body Massage</h5>
+              <h5>Facials</h5>
               <hr />A facial at a glamour luxury salon is a luxurious treat for
               your skin, combining high-end products, expert techniques, and a
               relaxing atmosphere to leave you feeling refreshed and glowing.

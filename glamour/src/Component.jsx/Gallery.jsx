@@ -25,7 +25,7 @@ const Gallery = () => {
     <Scroll/>
       <div className="gallery container-fluid text-light">
         <div data-aos="zoom-in">
-          <h3 className="text-center">GALLERY</h3>
+          <h3 className="text-center style">GALLERY</h3>
           <Link to="/" className="text-decoration-none text-light" >_____Home : Gallery____</Link>
         </div>
       </div>
