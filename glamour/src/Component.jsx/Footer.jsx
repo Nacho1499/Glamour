@@ -23,12 +23,8 @@ const Footer = () => {
             <a href="">
               <i className="footer text-light fa-brands fa-square-whatsapp fa-2x"></i>
             </a>
-            <a href="">
-            <a href=""><i className=" footer text-light fa-brands fa-telegram fa-2x"></i></a>
-            </a>
-            <a href="">
-              <i className="footer text-light fa-brands fa-square-x-twitter fa-2x"></i>
-            </a>
+           
+           
             <a href="">
               <i className=" footer text-light fa-brands fa-square-instagram fa-2x"></i>
             </a>
