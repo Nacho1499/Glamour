@@ -86,7 +86,7 @@ const Gallery = () => {
       </div>
       <div className="gal-book container-fluid">
         <div className="text-center" data-aos="zoom-in">
-        <h3 className="text-light">WE ARE HERE FOR YOU </h3>
+        <h3 className="text-light style">WE ARE HERE FOR YOU </h3>
         <hr className="text-light" />
         <Link to="/appointment" className="btn btn-outline-light p-2 text-decoration-none">BOOK AN APPOINTMENT</Link>
         </div>

@@ -28,7 +28,7 @@ const Aboutus = () => {
       </div>
       <div className="container-fluid p-3 bg-dark text-light">
         <div className="container mt-4 mb-5">
-          <h4 className="text-center style">
+          <h4 className=" style">
             Welcome To Glamour Luxury Unisex Salon
           </h4>
           <hr />
@@ -77,7 +77,20 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
-        <section class="map text-center mb-5">
+      </div>
+       <div className="gal-book container-fluid bg-dark">
+              <div className="container text-center mt-4" data-aos="zoom-in">
+                <h3 className="text-light style">WE ARE HERE FOR YOU </h3>
+                <hr className="text-light" />
+                <a href="tel:07049466103"
+                  
+                  className="btn btn-outline-light p-2 text-decoration-none"
+                >
+                  CONTACT US
+                </a>
+              </div>
+            </div>
+      <section class="map text-center bg-dark">
           <iframe
             className="w-100 shadow mt-4"
             src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.8572360108408!2d7.230085967149778!3d8.8777467205911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e65b378f5cce9%3A0xff5f9f28ee0e3a8c!2sSauka%20extension%2C%20Kuje!5e0!3m2!1sen!2sng!4v1735404049461!5m2!1sen!2sng"
@@ -89,7 +102,6 @@ const Aboutus = () => {
           ></iframe>
         </section>
 
-      </div>
       <Footer />
     </>
   );

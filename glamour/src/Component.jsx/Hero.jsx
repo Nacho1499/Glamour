@@ -17,11 +17,13 @@ const Hero = () => {
          <marquee behavior="" direction="left">Where Timeless Elegance Meets Personalized Beauty....</marquee>
         <p className="hero-text"> Where Timeless Elegance Meets Personalized Beauty....</p>
         </div>
-        <a href="tel:07049466103" className="hero-btn btn btn-light"  >CONTACT US</a>
+        <div className="mt-3">
+        <a href="tel:07049466103" className="hero-btn btn btn-light"  >Contact Us</a>
         <Link to="/appointment" className="hero-btn btn btn-outline-light">
-          APPOINTMENT
+          Appointment
         </Link>
-        <br />
+        </div>
+        
       </div>
     </div>
   );

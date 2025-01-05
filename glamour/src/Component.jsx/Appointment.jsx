@@ -30,7 +30,7 @@ const Appointment = () => {
             className="bg-dark p-4 rounded mt-5 mb-4 text-light w-100  mx-auto shadow"
           >
             <div className="mb-3 mt-3 outline-warning">
-              <label for="email" className="form-label">
+              <label for="email" className="form-label style">
                 Fullname:
               </label>
               <input
@@ -41,7 +41,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-3">
-              <label for="pwd" className="form-label">
+              <label for="pwd" className="form-label style">
                 Phone number/Email:
               </label>
               <input
@@ -52,7 +52,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-3">
-              <label for="pwd" className="form-label">
+              <label for="pwd" className="form-label style">
                 Appointment Date:
               </label>
               <input
@@ -83,30 +83,30 @@ const Appointment = () => {
           <h6>Call Us : +234-7056863572</h6>
           <div className="row g-3 mt-4 ">
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5>MON</h5>
+              <h5 className='style'>MON</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5>TUES</h5>
+              <h5 className='style'>TUES</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5>WED</h5>
+              <h5 className='style'>WED</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5>THUR</h5>
+              <h5 className='style'>THUR</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5>FRI</h5>
+              <h5 className='styel'>FRI</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5>SAT</h5>
+              <h5 className='styel'>SAT</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
-            <h5 className="text-center mt-4">SUNDAY : 12.00pm - 8.00pm</h5>
+            <h5 className="text-center mt-4 style">SUNDAY : 12.00pm - 8.00pm</h5>
           </div>
         </div>
         

@@ -33,16 +33,16 @@ const Products = () => {
                 conditioners to styling products that define and hold, our salon
                 uses only the finest, salon-grade formulations.
               </p>
-              <button className="btn btn-outline-light p-2 mt-2">
+              <a href="tel:07049466103" className="btn btn-outline-light p-2 mt-2">
                 Make More Enquiry <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="gal-book container-fluid bg-dark">
         <div className="container text-center mt-4" data-aos="zoom-in">
-          <h3 className="text-light">WE ARE HERE FOR YOU </h3>
+          <h3 className="text-light style">WE ARE HERE FOR YOU </h3>
           <hr className="text-light" />
           <Link
             to="/appointment"

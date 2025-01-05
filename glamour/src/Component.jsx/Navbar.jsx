@@ -6,7 +6,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [upDate, setupDate] = useState('');
   function upDates() {
-    setupDate( alert("No up dates available now"));
+    setupDate( alert("No updates available now"));
   }
   return (
     <>
