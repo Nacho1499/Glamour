@@ -50,7 +50,7 @@
 
 .gallery {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/11.jpg);
+    url(assets/24.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,7 +67,7 @@
 }
 .gal-book {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.4)),
-    url(assets/show.jpg);
+    url(assets/22.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

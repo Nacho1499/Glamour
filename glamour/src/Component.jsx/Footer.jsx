@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.jpg";
 
 const Footer = () => {
   const date = new Date();
@@ -9,6 +10,7 @@ const Footer = () => {
         <div className="container mt-5">
           <div className="row  g-4">
             <div className="col-12 col-lg-6 text-light">
+              <img className="logo mb-3" src={logo} alt="" />
               <h4 className="text-light style">GLAMOUR LUXURY UNISEX SALON</h4>
               <p>
               

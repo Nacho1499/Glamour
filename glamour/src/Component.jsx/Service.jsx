@@ -18,7 +18,7 @@ const Service = () => {
         <hr className="mb-5" />
         <div className="row">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
-            <img className="img-fluid rounded" src={barb1} alt="" />
+            <img className="img-fluid" src={barb1} alt="" />
             <p className="mt-3">
               <h5>Hair Cut</h5>
               <hr />A visit to  Glamour Luxury Salon promises not just a
@@ -27,7 +27,7 @@ const Service = () => {
             </p>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
-            <img className="img-fluid rounded" src={barb2} alt="" />
+            <img className="img-fluid" src={barb2} alt="" />
             <p className="mt-3">
               <h5>Hair Braiding</h5>
               <hr />
@@ -37,7 +37,7 @@ const Service = () => {
             </p>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
-            <img className="img-fluid rounded" src={barb3} alt="" />
+            <img className="img-fluid" src={barb3} alt="" />
             <p className="mt-3">
               <h5>Facials</h5>
               <hr />A facial at glamour luxury salon is a luxurious treat for

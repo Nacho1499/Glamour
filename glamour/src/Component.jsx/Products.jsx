@@ -19,7 +19,7 @@ const Products = () => {
           <div className="row g-3 mb-5">
             <div className="col-12 col-lg-6" data-aos="zoom-in" >
               <img
-                className="img-fluid rounded"
+                className="img-fluid"
                 src={product}
                 alt="product-image"
               />

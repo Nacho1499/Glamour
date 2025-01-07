@@ -30,7 +30,7 @@ const Allservices = () => {
         <div className="container mb-4 text-light">
           <div className="row g-3 mt-4">
             <div className="col-12 col-lg-4" data-aos="zoom-in">
-              <img className="img-fluid rounded" src={barb1} alt="" />
+              <img className="img-fluid" src={barb1} alt="" />
               <p className="mt-3">
                 <h5>Medicure And Pedicure</h5>
                 <hr />
@@ -40,7 +40,7 @@ const Allservices = () => {
               </p>
             </div>
             <div className="col-12 col-lg-4" data-aos="zoom-in">
-              <img className="img-fluid rounded" src={barb2} alt="" />
+              <img className="img-fluid" src={barb2} alt="" />
               <p className="mt-3">
                 <h5>Women Hair</h5>
                 <hr />
@@ -51,7 +51,7 @@ const Allservices = () => {
               </p>
             </div>
             <div className="col-12 col-lg-4" data-aos="zoom-in">
-              <img className="img-fluid rounded" src={barb3} alt="" />
+              <img className="img-fluid" src={barb3} alt="" />
               <p className="mt-3">
                 <h5>EyeLash Fixing</h5>
                 <hr />
@@ -62,7 +62,7 @@ const Allservices = () => {
               </p>
             </div>
             <div className="col-12 col-lg-4" data-aos="zoom-in">
-              <img className="img-fluid rounded" src={barb4} alt="" />
+              <img className="img-fluid" src={barb4} alt="" />
               <p className="mt-3">
                 <h5>Body Massage</h5>
                 <hr />

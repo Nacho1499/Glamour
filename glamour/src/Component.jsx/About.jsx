@@ -18,7 +18,7 @@ const About = () => {
         <div className="row g-4">
           <div className="col-12 col-md-6" data-aos="zoom-in">
             <img
-              className="img-fluid rounded about-image"
+              className="img-fluid  about-image"
               src={style}
               alt="about-image"
             />

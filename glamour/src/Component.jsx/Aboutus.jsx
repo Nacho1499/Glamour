@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import emma from "../assets/13.jpg";
+import emma from "../assets/logo.jpg";
 import staff1 from "../assets/staff.jpg";
 import staff2 from "../assets/staff1.jpg";
 import staff3 from "../assets/staff3.jpg";
@@ -34,7 +34,7 @@ const Aboutus = () => {
           <hr />
           <div className="row g-3 mt-4">
             <div className="col-12 col-lg-6"  data-aos="zoom-in">
-            <img className="img-fluid about-us rounded" src={emma} alt="" />
+            <img className="img-fluid about-us" src={emma} alt="" />
             </div>
             <div className="col-12 col-lg-6"  data-aos="zoom-in">
             <p className="mt-3">
@@ -58,19 +58,19 @@ const Aboutus = () => {
             <div className="row g-3 mt-3 text-center">
               <div className="col-12 col-lg-4  "  data-aos="zoom-in">
                 <a href={staff1} className='text-light'>
-                <img className=" staff img-fluid rounded" src={staff1} alt="" />
+                <img className=" staff img-fluid" src={staff1} alt="" />
                 <h5 className='mt-4 style'>Stylist</h5>
                 </a>
               </div>
               <div className="col-12 col-lg-4"  data-aos="zoom-in">
                 <a href={staff2} className='text-light'>
-                <img className="staff img-fluid rounded " src={staff2} alt="" />
+                <img className="staff img-fluid  " src={staff2} alt="" />
                 <h5 className='mt-4 style'>Barber</h5>
                 </a>
               </div>
               <div className="col-12 col-lg-4"  data-aos="zoom-in">
                 <a href={staff3} className='text-light'>
-                <img className="staff img-fluid rounded " src={staff3} alt="" />
+                <img className="staff img-fluid " src={staff3} alt="" />
                 <h5 className='mt-4 style'> Barber</h5>
                 </a>
               </div>

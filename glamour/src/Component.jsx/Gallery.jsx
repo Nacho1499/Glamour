@@ -37,48 +37,48 @@ const Gallery = () => {
         <div className="row g-3">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal1} alt="" />
+              <img className="img-fluid gal-img" src={gal1} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal2} alt="" />
+              <img className="img-fluid gal-img" src={gal2} alt="" />
             </a>
           </div>
 
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal3} alt="" />
+              <img className="img-fluid gal-img" src={gal3} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal4} alt="" />
+              <img className="img-fluid gal-img" src={gal4} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal5} alt="" />
+              <img className="img-fluid gal-img" src={gal5} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal6} alt="" />
+              <img className="img-fluid gal-img" src={gal6} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal7} alt="" />
+              <img className="img-fluid gal-img" src={gal7} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal8} alt="" />
+              <img className="img-fluid gal-img" src={gal8} alt="" />
             </a>
           </div>
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
-              <img className="img-fluid gal-img rounded" src={gal9} alt="" />
+              <img className="img-fluid gal-img" src={gal9} alt="" />
             </a>
           </div>
         </div>
