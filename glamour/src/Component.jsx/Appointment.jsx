@@ -25,8 +25,8 @@ const Appointment = () => {
           <h3 className='style'>Make An Appointment</h3>
           <hr />
           <form
-            action=""
-            method=""
+            action="https://formspree.io/f/xzzzkwyl"
+            method="POST"
             className="bg-dark p-4 rounded mt-5 mb-4 text-light w-100  mx-auto shadow"
           >
             <div className="mb-3 mt-3 outline-warning">
@@ -41,7 +41,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-3">
-              <label for="pwd" className="form-label style">
+              <label for="email" className="form-label style">
                 Phone number/Email:
               </label>
               <input
@@ -52,7 +52,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-3">
-              <label for="pwd" className="form-label style">
+              <label for="appointment" className="form-label style">
                 Appointment Date:
               </label>
               <input
@@ -60,11 +60,11 @@ const Appointment = () => {
                 className="form-control"
                 id="pwd"
                 placeholder="Appointment Date"
-                name="pswd"
+                name="appointment date"
               />
               <textarea
                 name="message"
-                id=""
+                id="message"
                 placeholder="message here"
                 className="form-control mt-3"
               ></textarea>
