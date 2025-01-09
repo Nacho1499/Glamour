@@ -37,7 +37,7 @@ const Appointment = () => {
                 type="text"
                 className="form-control"
                 placeholder="Enter fullname"
-                name="fullname"
+                name="fullname" required
               />
             </div>
             <div className="mb-3">
@@ -48,7 +48,7 @@ const Appointment = () => {
                 type="email"
                 className="form-control"
                 placeholder="Enter email/phone"
-                name="phone number"
+                name="phone number" required
               />
             </div>
             <div className="mb-3">
@@ -60,13 +60,13 @@ const Appointment = () => {
                 className="form-control"
                 id="pwd"
                 placeholder="Appointment Date"
-                name="appointment date"
+                name="appointment date" required
               />
               <textarea
                 name="message"
                 id="message"
                 placeholder="message here"
-                className="form-control mt-3"
+                className="form-control mt-3" required
               ></textarea>
             </div>
 
