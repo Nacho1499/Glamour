@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container " data-aos="zoom-in">
         <h1 className="text-light style">Glamour Luxury Unisex Salon</h1>
         <div className="text-light">
-         <marquee behavior="" direction="left">Where Timeless Elegance Meets Personalized Beauty....</marquee>
+         <marquee  behavior="" direction="left" className="maq">Where Timeless Elegance Meets Personalized Beauty....</marquee>
         <p className="hero-text"> Where Timeless Elegance Meets Personalized Beauty....</p>
         </div>
         <div className="mt-3">

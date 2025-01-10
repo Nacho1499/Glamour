@@ -79,7 +79,7 @@ const Appointment = () => {
       <div className="time container-fluid bg-dark">
         <div className="container text-center mt-4 text-light">
           <h3 className="text-center style">Working Hours</h3>
-          <hr className="text-light" />
+          <hr />
           <h6>Call Us : +234-7056863572</h6>
           <div className="row g-3 mt-4 ">
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
@@ -99,11 +99,11 @@ const Appointment = () => {
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5 className='styel'>FRI</h5>
+              <h5 className='style'>FRI</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <div className=" date col-4 col-lg-2"  data-aos="zoom-in">
-              <h5 className='styel'>SAT</h5>
+              <h5 className='style'>SAT</h5>
               <p>8.00AM - 9.00PM </p>
             </div>
             <h5 className="text-center mt-4 style">SUNDAY : 12.00pm - 8.00pm</h5>

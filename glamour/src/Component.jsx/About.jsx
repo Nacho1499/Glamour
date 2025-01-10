@@ -35,7 +35,7 @@ const About = () => {
               every individual’s unique beauty. 
             </p>
             <Link to="/about" className="btn btn-outline-light mt-2 shadow p-2">
-              READ MORE ABOUT US <i class="fa-solid fa-arrow-right"></i>
+              Read More About Us <i class="fa-solid fa-arrow-right"></i>
             </Link>
           </div>
         </div>

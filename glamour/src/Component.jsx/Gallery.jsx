@@ -33,7 +33,7 @@ const Gallery = () => {
       <div className="bg-dark p-3">
       <div className="container mt-4 mb-4">
         <h5 className='text-light style'>Take a Tour Into Our Exclusive Gallery</h5>
-        <hr className='text-light' />
+        <hr/>
         <div className="row g-3">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
             <a href={gal1}>
@@ -87,7 +87,7 @@ const Gallery = () => {
       <div className="gal-book container-fluid">
         <div className="text-center" data-aos="zoom-in">
         <h3 className="text-light style">WE ARE HERE FOR YOU </h3>
-        <hr className="text-light" />
+        <hr />
         <Link to="/appointment" className="btn btn-outline-light p-2 text-decoration-none">BOOK AN APPOINTMENT</Link>
         </div>
       </div>

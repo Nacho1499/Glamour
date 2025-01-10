@@ -43,7 +43,7 @@ const Products = () => {
       <div className="gal-book container-fluid bg-dark">
         <div className="container text-center mt-4" data-aos="zoom-in">
           <h3 className="text-light style">WE ARE HERE FOR YOU </h3>
-          <hr className="text-light" />
+          <hr />
           <Link
             to="/appointment"
             className="btn btn-outline-light p-2 text-decoration-none"

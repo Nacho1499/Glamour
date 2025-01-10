@@ -14,7 +14,7 @@ const Footer = () => {
               <h4 className="text-light style">GLAMOUR LUXURY UNISEX SALON</h4>
               <p>
               
-                Address/Location: Suaka Road Pajimo Street, <br /> Kuje FCT
+                Address/Location: Suaka Extension Road Pajimo Street, <br /> Kuje FCT
                 Abuja.
               </p>
               Tel: +234-7056863572, +234-7049466103
@@ -22,11 +22,11 @@ const Footer = () => {
 
             <div className="col-12 col-lg-6 ">
               <a href="https://wa.link/1osan5">
-                <i className="footer text-light fa-brands fa-square-whatsapp fa-2x"></i>
+                <i className="footer  fa-brands fa-square-whatsapp fa-2x"></i>
               </a>
 
               <a href="https://www.instagram.com/reel/DB2zu_ToPEX/?igsh=NXFsaXhub2VkdGE1">
-                <i className=" footer text-light fa-brands fa-square-instagram fa-2x"></i>
+                <i className=" footer  fa-brands fa-square-instagram fa-2x"></i>
               </a>
             </div>
 
